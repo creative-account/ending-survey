@@ -46,7 +46,7 @@ selectElement.addEventListener("change", function() {
       music.setAttribute('src', 'https://www.youtube.com/embed/s7MiAAkwtuQ?si=PGi-UCNHXvgi5xEd');
       break;
     case '紅に染まる恋の花(with Marcia) / 幽閉サテライト':
-      music.setAttribute('src', 'https://www.youtube.com/embed/4tc7tM-Rm_I?si=eDnM4UFL29twfgJH');
+      music.setAttribute('src', 'https://www.youtube.com/embed/PWacpxkQQJg?si=c_hz3KOupBCfUYyv');
       break;
     case '転がる岩、君に朝が降る / 結束バンド':
       music.setAttribute('src', 'https://www.youtube.com/embed/423emHW_KZQ?si=ZRX1lVMmDdtH82Ek');
