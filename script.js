@@ -16,7 +16,7 @@ selectElement.addEventListener("change", function() {
       music.setAttribute('src', 'https://www.youtube.com/embed/xEbGlwAfrH0?si=tIuWJDsxhEUhzn7N');
       break;
     case 'Hands (feat. AO、Rapbito) / 魂音泉':
-      music.setAttribute('src', 'https://www.youtube.com/embed/i4wPRdnyZzU?si=c-0ymVlv9hnKAyS3');
+      music.setAttribute('src', 'https://www.youtube.com/embed/bdzstYL4tnQ?si=D5FP6uhHr7LxwxCT');
       break;
     case 'Help me, ERINNNNNN!! / COOL&CREATE':
       music.setAttribute('src', 'https://www.youtube.com/embed/egqLZ3tv8Fk?si=eYfzLYhq1IEhyATT');
