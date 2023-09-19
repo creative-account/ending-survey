@@ -79,7 +79,7 @@ selectElement.addEventListener("change", function() {
         music.setAttribute('src', 'https://www.youtube.com/embed/mpzh5CBlmBI?si=_Y-56PBZBX5bOi5e');
         break;
       case 'メフィスト / 女王蜂':
-        music.setAttribute('src', 'https://www.youtube.com/embed/mjkOZ1RFigE?si=wuaRZyNSCtCtc8zs');
+        music.setAttribute('src', 'https://www.youtube.com/embed/Yo83M-KOc7k?si=UB9Zpp8eXfJwJVcZ');
         break;
       case 'レッツゴー！陰陽師 / 坊主ダンサーズと琴姫と矢部野彦麿':
         music.setAttribute('src', 'https://www.youtube.com/embed/PumFnlu9EIY?si=8Z-cRuOLfZFMCz5j');
