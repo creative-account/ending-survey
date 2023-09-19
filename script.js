@@ -25,7 +25,7 @@ selectElement.addEventListener("change", function() {
       music.setAttribute('src', 'https://www.youtube.com/embed/hv9Sk4ZeSAM?si=FZ_a8g2H1qfTpoze');
       break;
     case 'Replay / LONGMAN':
-      music.setAttribute('src', 'https://www.youtube.com/embed/yCo50uKp7-Y?si=ni6YPhafr1otH1rB');
+      music.setAttribute('src', 'https://www.youtube.com/embed/CZyrcHoiJAY?si=ZLdOi8vBbsawz-mt');
       break;
     case 'SEE YOU AGAIN! / IOSYS':
       music.setAttribute('src', 'https://www.youtube.com/embed/97jp4kWCUiM?si=xpiAdQvqisY6k9k_');
