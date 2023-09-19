@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>風立祭 エンドロールの曲 アンケート</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+    <section class="hero is-primary">
+      <div class="hero-body has-text-centered">
+        <p class="title">
+          風立祭 エンドロールの曲 アンケート
+        </p>
+        <p class="subtitle">
+          風立祭のエンドロールで使用する曲についてアンケートをとります
+        </p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSePAJGu9RCpILIqGLij4_NaD7Jf_EOe9RVL1SpxbgVbwoSEHA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+          <div class="box">
+            <label for="name" class="label">名前</label>
+            <input type="text" placeholder="山田太郎" class="input is-primary" name="entry.1638954718" id="name" required>
+          </div>
+          <article class="message is-warning" id="article">
+            <div class="message-header">
+              <p>注意</p>
+              <button class="delete" aria-label="delete" onclick="removeArticle()"></button>
+            </div>
+            <div class="message-body">
+              <ul>
+                <li>アンケートをとりますが、多数決で決まるわけではありません</li>
+                <li>テンポが早すぎる曲はやめてください (例 : 初音ミクの消失、ナイト・オブ・ナイツ TOS Remix)</li>
+                <li>On Vocalの曲でお願いします</li>
+                <li>一人何回答えても構いませんが、同じ曲は1回しかカウントしません</li>
+                <li>1曲はまじめに選んで下さい あとはネタ曲を入れても構いません (選びませんが)</li>
+                <li>他人の名前を使って答えるのはやめてください</li>
+                <li>他人を脅すのもやめましょう</li>
+                <li><strong>デフォルトで選択されている「Replay」は必ず聞いてください</strong></li>
+              </ul>
+            </div>
+          </article>
+          <div class="box" id="selectSong">
+            <label for="songs" class="label">曲</label>
+            <div class="select is-primary">
+              <select name="entry.555752804" id="songs">
+                <option value="100%ちゅ~学生 / 七森中☆ごらく部">100%ちゅ~学生 / 七森中☆ごらく部</option>
+                <option value="Hands (feat. AO、Rapbito) / 魂音泉">Hands (feat. AO、Rapbito) / 魂音泉</option>
+                <option value="Help me, ERINNNNNN!! / COOL&CREATE">Help me, ERINNNNNN!! / COOL&CREATE</option>
+                <option value="INTERNET YAMERO / NEEDY GIRL">INTERNET YAMERO / NEEDY GIRL</option>
+                <option value="Replay / LONGMAN" selected>Replay / LONGMAN</option>
+                <option value="SEE YOU AGAIN! / IOSYS">SEE YOU AGAIN! / IOSYS</option>
+                <option value="The Sunshower / 亜咲花">The Sunshower / 亜咲花</option>
+                <option value="공격전이다 / 조선민주주의인민공화국">공격전이다 / 조선민주주의인민공화국</option>
+                <option value="アスノヨゾラ哨戒班 / ゆある">アスノヨゾラ哨戒班 / ゆある</option>
+                <option value="かけがえのない詩 / mihimaru GT">かけがえのない詩 / mihimaru GT</option>
+                <option value="君と世界の終わりに / 森羅万象">君と世界の終わりに / 森羅万象</option>
+                <option value="紅に染まる恋の花(with Marcia) / 幽閉サテライト">紅に染まる恋の花(with Marcia) / 幽閉サテライト</option>
+                <option value="転がる岩、君に朝が降る / 結束バンド">転がる岩、君に朝が降る / 結束バンド</option>
+                <option value="残響は鳴りやまず / 幽閉サテライト">残響は鳴りやまず / 幽閉サテライト</option>
+                <option value="全力少年 / スキマスイッチ">全力少年 / スキマスイッチ</option>
+                <option value="魂の部屋 / 佐々木恵梨">魂の部屋 / 佐々木恵梨</option>
+                <option value="小さな海 / 結束バンド">小さな海 / 結束バンド</option>
+                <option value="チェリー / スピッツ">チェリー / スピッツ</option>
+                <option value="天使にふれたよ! / 放課後ティータイム">天使にふれたよ! / 放課後ティータイム</option>
+                <option value="花の塔 / さユり">花の塔 / さユり</option>
+                <option value="バラライカ / 月島きらり">バラライカ / 月島きらり</option>
+                <option value="ミモザ / 佐々木恵梨">ミモザ / 佐々木恵梨</option>
+                <option value="メフィスト / 女王蜂">メフィスト / 女王蜂</option>
+                <option value="レッツゴー！陰陽師 / 坊主ダンサーズと琴姫と矢部野彦麿">レッツゴー！陰陽師 / 坊主ダンサーズと琴姫と矢部野彦麿</option>
+                <option value="その他">その他</option>
+              </select>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yCo50uKp7-Y?si=ni6YPhafr1otH1rB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="youtubeMusic" class=""></iframe>
+          </div>
+          <input type="submit" value="送信" class="button is-primary">
+          <input type="reset" value="フォームをクリア" class="button is-outlined is-primary">
+        </form>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='thanks.html';}"></iframe>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
