@@ -19,7 +19,7 @@ selectElement.addEventListener("change", function() {
       music.setAttribute('src', 'https://www.youtube.com/embed/i4wPRdnyZzU?si=c-0ymVlv9hnKAyS3');
       break;
     case 'Help me, ERINNNNNN!! / COOL&CREATE':
-      music.setAttribute('src', 'https://www.youtube.com/embed/dwJlshAuWdE?si=tgKQ28mogSWQKOHd');
+      music.setAttribute('src', 'https://www.youtube.com/embed/egqLZ3tv8Fk?si=eYfzLYhq1IEhyATT');
       break;
     case 'INTERNET YAMERO / NEEDY GIRL':
       music.setAttribute('src', 'https://www.youtube.com/embed/hv9Sk4ZeSAM?si=FZ_a8g2H1qfTpoze');
