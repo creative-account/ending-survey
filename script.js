@@ -51,6 +51,9 @@ selectElement.addEventListener("change", function() {
     case '紅に染まる恋の花(with Marcia) / 幽閉サテライト':
       music.setAttribute('src', 'https://www.youtube.com/embed/PWacpxkQQJg?si=c_hz3KOupBCfUYyv');
       break;
+    case 'コネクト / ClariS':
+      music.setAttribute('src', 'https://www.youtube.com/embed/7EuTPTVpuNI?si=sDGFQU6ynsWaYmHp');
+      break;
     case '転がる岩、君に朝が降る / 結束バンド':
       music.setAttribute('src', 'https://www.youtube.com/embed/S8yEAQOaqfk?si=XwO7GGuV0kkge6K8');
       break;
