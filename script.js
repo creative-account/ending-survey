@@ -52,7 +52,7 @@ selectElement.addEventListener("change", function() {
       music.setAttribute('src', 'https://www.youtube.com/embed/S8yEAQOaqfk?si=XwO7GGuV0kkge6K8');
       break;
     case '残響は鳴りやまず / 幽閉サテライト':
-      music.setAttribute('src', 'https://www.youtube.com/embed/8xBu54sh6Pc?si=IWE6kuTHvHGNS5cv');
+      music.setAttribute('src', 'https://www.youtube.com/embed/-nfY_bw2XSo?si=r-pgFlYbUNRDeOi2');
       break;
     case '全力少年 / スキマスイッチ':
       music.setAttribute('src', 'https://www.youtube.com/embed/NiwkUVkXIlU?si=63WoPEFSdrg8hart');
