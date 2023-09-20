@@ -49,7 +49,7 @@ selectElement.addEventListener("change", function() {
       music.setAttribute('src', 'https://www.youtube.com/embed/PWacpxkQQJg?si=c_hz3KOupBCfUYyv');
       break;
     case '転がる岩、君に朝が降る / 結束バンド':
-      music.setAttribute('src', 'https://www.youtube.com/embed/423emHW_KZQ?si=ZRX1lVMmDdtH82Ek');
+      music.setAttribute('src', 'https://www.youtube.com/embed/S8yEAQOaqfk?si=XwO7GGuV0kkge6K8');
       break;
     case '残響は鳴りやまず / 幽閉サテライト':
       music.setAttribute('src', 'https://www.youtube.com/embed/8xBu54sh6Pc?si=IWE6kuTHvHGNS5cv');
@@ -61,7 +61,7 @@ selectElement.addEventListener("change", function() {
       music.setAttribute('src', 'https://www.youtube.com/embed/TR_aUVLtLQg?si=ZH6DrEFBBch9x8Uk');
       break;
     case '小さな海 / 結束バンド':
-      music.setAttribute('src', 'https://www.youtube.com/embed/r-2ivMSedtY?si=CBldfyk4fMcGqjHr');
+      music.setAttribute('src', 'https://www.youtube.com/embed/j818IwWiz0g?si=fXasH3OdLniurPXe');
       break;
     case 'チェリー / スピッツ':
       music.setAttribute('src', 'https://www.youtube.com/embed/cbi3J3qRgTM?si=gGhVLcmkZ5Ko1InM');
