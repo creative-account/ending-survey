@@ -39,6 +39,9 @@ selectElement.addEventListener("change", function() {
     case 'アスノヨゾラ哨戒班 / ゆある':
       music.setAttribute('src', 'https://www.youtube.com/embed/d5UvZI8iSlU?si=n3Qdwt7Cw1fGOmVz');
       break;
+    case 'あなたがいる / Wacci':
+      music.setAttribute('src', 'https://www.youtube.com/embed/zZyxBa_QDqQ?si=wpUNxzcOZs3ABnmk');
+      break;
     case 'かけがえのない詩 / mihimaru GT':
       music.setAttribute('src', 'https://www.youtube.com/embed/xeIj1cLY7u0?si=3wAcXQY8gKI6hOxF');
       break;
