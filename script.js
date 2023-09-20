@@ -70,7 +70,7 @@ selectElement.addEventListener("change", function() {
       music.setAttribute('src', 'https://www.youtube.com/embed/ba0juE9ROCg?si=8BGm_YsxzQY_JnNw');
       break;
       case '花の塔 / さユり':
-        music.setAttribute('src', 'https://www.youtube.com/embed/H2r25lVcIHw?si=sSSneK8irczlJjh2');
+        music.setAttribute('src', 'https://www.youtube.com/embed/2KOZ8lYon54?si=KuVoOdDLbryEzy7_');
         break;
       case 'バラライカ / 月島きらり':
         music.setAttribute('src', 'https://www.youtube.com/embed/SYLWe09cOjc?si=vjqgiGcK0x--Bvkr');
