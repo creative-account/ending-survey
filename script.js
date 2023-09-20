@@ -64,7 +64,7 @@ selectElement.addEventListener("change", function() {
       music.setAttribute('src', 'https://www.youtube.com/embed/j818IwWiz0g?si=fXasH3OdLniurPXe');
       break;
     case 'チェリー / スピッツ':
-      music.setAttribute('src', 'https://www.youtube.com/embed/cbi3J3qRgTM?si=gGhVLcmkZ5Ko1InM');
+      music.setAttribute('src', 'https://www.youtube.com/embed/Eze6-eHmtJg?si=FzlL4OS77zwCKMJR');
       break;
     case '天使にふれたよ! / 放課後ティータイム':
       music.setAttribute('src', 'https://www.youtube.com/embed/ba0juE9ROCg?si=8BGm_YsxzQY_JnNw');
