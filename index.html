@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
   <body>
+    <style>
+      .youtube {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+    }
+    .youtube iframe {
+      width: 100%;
+      height: 100%;
+    }
+    #other{
+      visibility: hidden;
+    }
+    </style>
     <section class="hero is-primary">
       <div class="hero-body has-text-centered">
         <p class="title">
@@ -35,9 +48,10 @@
                 <li>テンポが早すぎる曲はやめてください (例 : 初音ミクの消失、ナイト・オブ・ナイツ TOS Remix)</li>
                 <li>On Vocalの曲でお願いします</li>
                 <li>一人何回答えても構いませんが、同じ曲は1回しかカウントしません</li>
-                <li>1曲はまじめに選んで下さい あとはネタ曲を入れても構いません (選びませんが)</li>
+                <li>今回はネタ枠なしです。「コンギョ」などはやめてください。</li>
                 <li>他人の名前を使って答えるのはやめてください</li>
                 <li>他人を脅すのもやめましょう</li>
+                <li>動画を再生できませんと出た場合は、ブラウザを再読込すると直る可能性があります</li>
                 <li><strong>デフォルトで選択されている「Replay」は必ず聞いてください</strong></li>
               </ul>
             </div>
@@ -47,35 +61,21 @@
             <div class="select is-primary mb-4">
               <select name="entry.555752804" id="songs">
                 <option value="I'm a mess /MY FIRST STORY">I'm a mess /MY FIRST STORY</option>
-                <option value="青のすみか / キタニタツヤ">青のすみか / キタニタツヤ</option>
-                <option value="Help me, ERINNNNNN!! / COOL&CREATE">Help me, ERINNNNNN!! / COOL&CREATE</option>
-                <option value="INTERNET YAMERO / NEEDY GIRL">INTERNET YAMERO / NEEDY GIRL</option>
+                <option value="Magic / Mrs. GREEN APPLE">Magic / Mrs. GREEN APPLE</option>
                 <option value="Replay / LONGMAN" selected>Replay / LONGMAN</option>
-                <option value="SEE YOU AGAIN! / IOSYS">SEE YOU AGAIN! / IOSYS</option>
-                <option value="The Sunshower / 亜咲花">The Sunshower / 亜咲花</option>
-                <option value="공격전이다 / 조선민주주의인민공화국">공격전이다 / 조선민주주의인민공화국</option>
-                <option value="アスノヨゾラ哨戒班 / ゆある">アスノヨゾラ哨戒班 / ゆある</option>
-                <option value="あなたがいる / Wacci">あなたがいる / Wacci</option>
-                <option value="かけがえのない詩 / mihimaru GT">かけがえのない詩 / mihimaru GT</option>
-                <option value="君と世界の終わりに / 森羅万象">君と世界の終わりに / 森羅万象</option>
-                <option value="紅に染まる恋の花(with Marcia) / 幽閉サテライト">紅に染まる恋の花(with Marcia) / 幽閉サテライト</option>
-                <option value="コネクト / ClariS">コネクト / ClariS</option>
-                <option value="転がる岩、君に朝が降る / 結束バンド">転がる岩、君に朝が降る / 結束バンド</option>
-                <option value="残響は鳴りやまず / 幽閉サテライト">残響は鳴りやまず / 幽閉サテライト</option>
-                <option value="全力少年 / スキマスイッチ">全力少年 / スキマスイッチ</option>
-                <option value="魂の部屋 / 佐々木恵梨">魂の部屋 / 佐々木恵梨</option>
-                <option value="小さな海 / 結束バンド">小さな海 / 結束バンド</option>
-                <option value="チェリー / スピッツ">チェリー / スピッツ</option>
-                <option value="天使にふれたよ! / 放課後ティータイム">天使にふれたよ! / 放課後ティータイム</option>
-                <option value="花の塔 / さユり">花の塔 / さユり</option>
-                <option value="バラライカ / 月島きらり">バラライカ / 月島きらり</option>
-                <option value="ミモザ / 佐々木恵梨">ミモザ / 佐々木恵梨</option>
-                <option value="メフィスト / 女王蜂">メフィスト / 女王蜂</option>
-                <option value="レッツゴー！陰陽師 / 坊主ダンサーズと琴姫と矢部野彦麿">レッツゴー！陰陽師 / 坊主ダンサーズと琴姫と矢部野彦麿</option>
+                <option value="青のすみか / キタニタツヤ">青のすみか / キタニタツヤ</option>
+                <option value="澄 / 崎山蒼志">澄 / 崎山蒼志</option>
+                <option value="ケセラセラ / Mrs. GREEN APPLE">ケセラセラ / Mrs. GREEN APPLE</option>
+                <option value="シュガーソングとビターステップ / UNISON SQUARE GARDEN">シュガーソングとビターステップ / UNISON SQUARE GARDEN</option>
+                <option value="祝福 / YOASOBI">祝福 / YOASOBI</option>
+                <option value="向日葵 / Ado">向日葵 / Ado</option>
+                <option value="勿忘草 / GReeeeN">勿忘草 / GReeeeN</option>
+                <option value="℃ / ラックライフ">℃ / ラックライフ</option>
                 <option value="その他">その他</option>
               </select>
             </div>
-            <iframe width="100%" height="530" src="https://www.youtube.com/embed/CZyrcHoiJAY?si=ZLdOi8vBbsawz-mt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="youtubeMusic"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CZyrcHoiJAY?si=ZLdOi8vBbsawz-mt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="youtubeMusic" class="youtube"></iframe>
+            <input type="text" id="other" class="input is-primary fullwidth" name='entry.1353190390' placeholder="楽曲名 / アーティスト名">
           </div>
           <input type="submit" value="送信" class="button is-primary is-large">
           <input type="reset" value="フォームをクリア" class="button is-outlined is-primary">
